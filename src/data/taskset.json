@@ -1,0 +1,884 @@
+[
+    {
+      "title": "Win more tricks than everyone else",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win more tricks than everyone else together",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 5
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win fewer tricks than everyone else",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win more tricks than the captain (the captain can't take this mission)",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win fewer tricks than the captain (the captain can't take this mission)",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the same number of tricks as the captain the captain can't take this mission",
+      "difficulty": {
+        "3": 4,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win a trick where all cards are of lower value than 7 without submarines",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win a trick where all cards are of greater value than 5",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win a trick with a 6",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win a trick with a 5",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win a trick with a 3",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 5
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win a 5 with a 7",
+      "difficulty": {
+        "3": 1,
+        "4": 2,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win an 8 with a 4",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 5
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win any 6 with another 6",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win a trick with a 2",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 5
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the pink 3",
+      "difficulty": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the yellow 1",
+      "difficulty": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the blue 4",
+      "difficulty": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the green 6",
+      "difficulty": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win all four 3s",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 5
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win at least three 5s",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 5
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win at least three 9s",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 5
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win at least two 7s",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win all four 9s",
+      "difficulty": {
+        "3": 4,
+        "4": 5,
+        "5": 6
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win exactly three 6s",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win exactly two 9s",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the blue 1 and 2 and 3",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the blue 6 and the yellow 7",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the pink 5 and yellow 6",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the green 5 and blue 8",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the blue 5 and pink 8",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the pink 9 and yellow 8",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the pink 1 and green 7",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the yellow 9 and blue 7",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the green 3 and the yellow 4 and 5",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the green 2 in the last trick",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 5
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win exactly one pink and one green card",
+      "difficulty": {
+        "3": 4,
+        "4": 4,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win at least seven yellow cards",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win at least five pink cards",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win exactly two green cards",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win exactly two blue cards",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win exactly one pink card",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win no pink cards",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win at least one card of each colour excluding submarines",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win all cards of at least one colour excluding submarines",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 5
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win a trick that has only even numbers",
+      "difficulty": {
+        "3": 2,
+        "4": 5,
+        "5": 6
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win a trick that has only numbers",
+      "difficulty": {
+        "3": 2,
+        "4": 4,
+        "5": 5
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win a trick with a total value of at least 23/28/31 without submarines",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win a trick with a total value lower than 8/12/16 without submarines",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win a trick with a total value of 22 or 23",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win exactly one submarine",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": "someone has all submarines in hand"
+    },
+    {
+      "title": "Win the 1 submarine and no other",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": "someone has submarines no 1 and 4 or 1/2/3 in hand"
+    },
+    {
+      "title": "Win the 2 submarine and no other",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": "someone has submarines no 2 and 4 or 1/2/3 in hand"
+    },
+    {
+      "title": "Win the 3 submarine",
+      "difficulty": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win exactly two submarines",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 4
+      },
+      "redealCondition": "someone has submarines no 2/3/4 in hand"
+    },
+    {
+      "title": "Win exactly three submarines",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 4
+      },
+      "redealCondition": "someone has all submarines in hand"
+    },
+    {
+      "title": "Win no submarines",
+      "difficulty": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the pink 7 with a submarine",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the green 9 with a submarine",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't open a trick with a pink or yellow or blue card",
+      "difficulty": {
+        "3": 4,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't open a trick with a pink or green card",
+      "difficulty": {
+        "3": 2,
+        "4": 1,
+        "5": 1
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't win any green cards",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't win any yellow cards",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't win any pink or blue cards",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't win any yellow or green cards",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't win any 8s or 9s",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't win any 9s",
+      "difficulty": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't win any 5s",
+      "difficulty": {
+        "3": 1,
+        "4": 2,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't win any 1s",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't win any 1s 2s or 3s",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't win any of the first four tricks",
+      "difficulty": {
+        "3": 1,
+        "4": 2,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't win any of the first three tricks",
+      "difficulty": {
+        "3": 1,
+        "4": 2,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't win any of the first five tricks",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Don't win any tricks",
+      "difficulty": {
+        "3": 4,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Do not win two consecutive tricks",
+      "difficulty": {
+        "3": 3,
+        "4": 2,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the last trick",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the first three tricks",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the first two tricks",
+      "difficulty": {
+        "3": 1,
+        "4": 1,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the first trick",
+      "difficulty": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the first and the last trick",
+      "difficulty": {
+        "3": 3,
+        "4": 4,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "I win only the last trick",
+      "difficulty": {
+        "3": 4,
+        "4": 4,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "I win only the first trick",
+      "difficulty": {
+        "3": 4,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win exactly one trick",
+      "difficulty": {
+        "3": 3,
+        "4": 2,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win exactly two tricks",
+      "difficulty": {
+        "3": 2,
+        "4": 2,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win two consecutive tricks",
+      "difficulty": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win three consecutive tricks",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win exactly four tricks",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 5
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win exactly three consecutive tricks",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win exactly two consecutive tricks",
+      "difficulty": {
+        "3": 3,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win X tricks (predict the exact number and show)",
+      "difficulty": {
+        "3": 3,
+        "4": 2,
+        "5": 2
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win X tricks (predict the exact number but keep hidden)",
+      "difficulty": {
+        "3": 4,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the same amount of pink and yellow cards (more than 0)",
+      "difficulty": {
+        "3": 4,
+        "4": 4,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the same amount of green and yellow cards in a trick (more than 0)",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the same amount of pink and blue cards in a trick (more than 0)",
+      "difficulty": {
+        "3": 2,
+        "4": 3,
+        "5": 3
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win more yellow cards than blue cards (0 blue cards are allowed)",
+      "difficulty": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win more pink cards than green cards (0 green cards are allowed)",
+      "difficulty": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win the same amount of pink and yellow cards (more than 0)",
+      "difficulty": {
+        "3": 4,
+        "4": 4,
+        "5": 4
+      },
+      "redealCondition": null
+    },
+    {
+      "title": "Win more pink cards than green cards 0 green cards are allowed",
+      "difficulty": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "redealCondition": null
+    }
+  ]
