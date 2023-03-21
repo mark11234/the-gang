@@ -6,6 +6,5 @@ export type Task = {
         4: number;
         5: number;
     };
-    additionalDetails: string | null;
     redealCondition: string | null;
 }
