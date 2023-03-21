@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/the-gang/static/css/main.ca57846c.css",
+    "main.js": "/the-gang/static/js/main.24481d74.js",
+    "static/js/787.773f55c6.chunk.js": "/the-gang/static/js/787.773f55c6.chunk.js",
+    "index.html": "/the-gang/index.html",
+    "main.ca57846c.css.map": "/the-gang/static/css/main.ca57846c.css.map",
+    "main.24481d74.js.map": "/the-gang/static/js/main.24481d74.js.map",
+    "787.773f55c6.chunk.js.map": "/the-gang/static/js/787.773f55c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca57846c.css",
+    "static/js/main.24481d74.js"
+  ]
+}
