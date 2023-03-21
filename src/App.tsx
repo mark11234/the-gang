@@ -1,17 +1,15 @@
-import React from 'react';
 import './App.css';
+import TableOfTasks from './components/tableOfTasks';
 import { getTasks } from './helpers/getTasks';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        <h1>
           The Gang website
-        </p>
-        <p>
-          {getTasks(3,12)[0].title}
-        </p>
+        </h1>
+        <TableOfTasks tasks={getTasks(3,12)} numberOfPlayers={3}/>
       </header>
     </div>
   );
