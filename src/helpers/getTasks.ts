@@ -8,7 +8,7 @@ export const getTasks = (numberOfPlayers: 3 | 4 | 5, difficulty: number): Task[]
     let tasksDifficulty = 0;
     const tasks: Task[] = []
     let numberOfLoops = 0;
-    const MAXIMUM_NUMBER_OF_LOOPS = 20;
+    const MAXIMUM_NUMBER_OF_LOOPS = 200;
     while (tasksDifficulty < difficulty && numberOfLoops < MAXIMUM_NUMBER_OF_LOOPS) {
         let newTask = getRandomtask();
         if (
