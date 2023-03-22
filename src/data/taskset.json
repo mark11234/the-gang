@@ -289,7 +289,7 @@
   },
   {
     "title": "Win the pink 1 and green 7",
-    "alternativeTitle": "Win the 1 of hearts and 7 of diamonds",
+    "alternativeTitle": "Win the Ace of hearts and 7 of diamonds",
     "difficulty": {
       "3": 2,
       "4": 2,
@@ -887,8 +887,8 @@
     }
   },
   {
-    "title": "Win more pink cards than green cards 0 green cards are allowed",
-    "alternativeTitle": "Win more hearts than diamonds 0 diamonds are allowed",
+    "title": "Win more pink cards than green cards (0 green cards are allowed)",
+    "alternativeTitle": "Win more hearts than diamonds (0 diamonds are allowed)",
     "difficulty": {
       "3": 1,
       "4": 1,

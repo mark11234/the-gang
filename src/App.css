@@ -25,9 +25,9 @@
 .Difficulty-selector {
   display: flex;
   flex-direction: column;
+  min-width: 256px;
+  min-height: 64px;
   width: 30%;
-  min-width: 10vh;
-  min-height: 10vh;
 }
 
 .Number-of-players-selector {
@@ -91,7 +91,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  
+}
+
+.width-separator {
+  width: 8px;
 }
 
 .Generate-tasks-button {
