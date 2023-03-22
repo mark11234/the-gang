@@ -1,14 +1,129 @@
+:root {
+  --primary-text-color: white;
+  --secondary-text-color: #000000;
+  --main-background-color: #282c34;
+  --button-color: #74a9de;
+  --button-hover-color: #4572a0;
+  --button-active-color: #254c73;
+}
+
 .App {
+  min-height: 100vh;
   text-align: center;
+  color: var(--primary-text-color);
+  background-color:var(--main-background-color);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+}
+
+.Difficulty-selector {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  min-width: 10vh;
+}
+
+.Number-of-players-selector {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+}
+
+.Number-of-players-button {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: var(--button-color);
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: var(--secondary-text-color);
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.Number-of-players-button:hover,
+.Number-of-players-button:focus,
+.Number-of-players-button:disabled {
+  background-color: var(--button-hover-color);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.Number-of-players-button:hover {
+  transform: translateY(-1px);
+}
+
+.Number-of-players-button:active {
+  background-color: var(--button-active-color);
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.Generate-tasks-button {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: var(--button-color);
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: var(--secondary-text-color);
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.Generate-tasks-button:hover,
+.Generate-tasks-button:focus{
+  background-color: var(--button-hover-color);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.Generate-tasks-button:hover {
+  transform: translateY(-1px);
+}
+
+.Generate-tasks-button:active {
+  background-color: var(--button-active-color);
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
 }
