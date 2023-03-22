@@ -1,8 +1,7 @@
 import { Task } from "../models/task";
 import taskset from "../data/taskset.json";
 
-const getRandomtask = (): Task => taskset[Math.ceil(Math.random()*taskset.length)];
-
+const getRandomtask = (): Task => taskset[Math.floor(Math.random()*taskset.length)];
 
 export const getTasks = (numberOfPlayers: 3 | 4 | 5, difficulty: number): Task[] => {
     let tasksDifficulty = 0;

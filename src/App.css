@@ -27,6 +27,7 @@
   flex-direction: column;
   width: 30%;
   min-width: 10vh;
+  min-height: 10vh;
 }
 
 .Number-of-players-selector {
@@ -81,6 +82,16 @@
   background-color: var(--button-active-color);
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
+}
+
+
+.Playing-cards-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  
 }
 
 .Generate-tasks-button {

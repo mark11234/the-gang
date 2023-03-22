@@ -3,7 +3,8 @@ import TaskRow from "./taskRow";
 
 type TableOfTasksProps = {
   tasks: Task[],
-  numberOfPlayers: 3 | 4 | 5
+  numberOfPlayers: 3 | 4 | 5,
+  useAlternativeTitle: boolean,
 }
 
 const TableOfTasks = (props: TableOfTasksProps) => (
@@ -16,13 +17,16 @@ const TableOfTasks = (props: TableOfTasksProps) => (
         </tr>
       </thead>
       <tbody>
-        {props.tasks.map(task => <TaskRow task={task} numberOfPlayers={props.numberOfPlayers}/>)}
+        {props.tasks.map(task => <TaskRow task={task} numberOfPlayers={props.numberOfPlayers} useAlternativeTitle={props.useAlternativeTitle}/>)}
       </tbody>
     </table>
   </div>
 );
 
-export default TableOfTasks
+TableOfTasks.defaultProps = {
+  playingCards: false,
+}
 
+export default TableOfTasks
 
 

@@ -5,6 +5,7 @@ import TableOfTasks from './components/tableOfTasks';
 import { getTasks } from './helpers/getTasks';
 import { useState } from 'react';
 import { Task } from './models/task';
+import PlayingCardsSwitch from './components/playingCardsSwitch';
 
 const App = () => {
   let [difficulty, setDifficulty] = useState(5);
@@ -13,6 +14,7 @@ const App = () => {
   const generateTasks = () => {
     setTasks(getTasks(numberOfPlayers,difficulty));
   }
+  let [usePlayingCards, setUsePlayingCards] = useState(false);
   return (
     <div className="App">
       <header className="App-header">
@@ -29,10 +31,14 @@ const App = () => {
         <button className="Number-of-players-button" id="4PlayersButton" onClick={() => setNumberOfPlayers(4)} disabled={numberOfPlayers===4}>4</button>
         <button className="Number-of-players-button" id="5PlayersButton" onClick={() => setNumberOfPlayers(5)} disabled={numberOfPlayers===5}>5</button>
       </div>
+      <div className="Playing-cards-selector">
+        <p>Use playing cards?</p>
+        <PlayingCardsSwitch value={usePlayingCards} onSwitch={(newValue:boolean)=>setUsePlayingCards(newValue)}></PlayingCardsSwitch>
+      </div>
       <div>
         <button className="Generate-tasks-button" onClick={() => generateTasks()} autoFocus={true}>Generate Tasks!</button>
       </div>
-      {tasks[0] && <TableOfTasks tasks={tasks} numberOfPlayers={3}/>}
+      {tasks[0] && <TableOfTasks tasks={tasks} numberOfPlayers={3} useAlternativeTitle={usePlayingCards}/>}
     </div>
   );
 }
