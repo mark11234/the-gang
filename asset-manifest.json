@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/the-gang/static/css/main.6f23afbf.css",
-    "main.js": "/the-gang/static/js/main.bfbbce4b.js",
+    "main.css": "/the-gang/static/css/main.a6bdc915.css",
+    "main.js": "/the-gang/static/js/main.96761521.js",
     "static/js/787.773f55c6.chunk.js": "/the-gang/static/js/787.773f55c6.chunk.js",
     "index.html": "/the-gang/index.html",
-    "main.6f23afbf.css.map": "/the-gang/static/css/main.6f23afbf.css.map",
-    "main.bfbbce4b.js.map": "/the-gang/static/js/main.bfbbce4b.js.map",
+    "main.a6bdc915.css.map": "/the-gang/static/css/main.a6bdc915.css.map",
+    "main.96761521.js.map": "/the-gang/static/js/main.96761521.js.map",
     "787.773f55c6.chunk.js.map": "/the-gang/static/js/787.773f55c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f23afbf.css",
-    "static/js/main.bfbbce4b.js"
+    "static/css/main.a6bdc915.css",
+    "static/js/main.96761521.js"
   ]
 }
