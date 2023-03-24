@@ -8,9 +8,9 @@ type TaskRowProps = {
 
 const TaskRow = (props: TaskRowProps) => (
   <tr>
-    {!props.useAlternativeTitle && <td className="tg-0lax">{props.task.title}</td>}
-    {props.useAlternativeTitle && <td className="tg-0lax">{props.task.alternativeTitle}</td>}
-    <td className="tg-0lax">{props.task.difficulty[props.numberOfPlayers]}</td>
+    {!props.useAlternativeTitle && <td>{props.task.title}</td>}
+    {props.useAlternativeTitle && <td>{props.task.alternativeTitle}</td>}
+    <td>{props.task.difficulty[props.numberOfPlayers]}</td>
   </tr>
 )
   

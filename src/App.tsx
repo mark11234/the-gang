@@ -26,41 +26,46 @@ const App = () => {
   let [usePlayingCards, setUsePlayingCards] = useState(false);
   return (
       <div className="Wrapper">
-      <div className="App">
-        <header className="App-header">
-          <h1>
-            The Gang website
-          </h1>
-        </header>
-        <div className="Difficulty-selector">
-          <p> Difficulty: {difficulty}</p>
-          <Slider value={difficulty} onChange={(value) => setDifficulty(parseInt(value.toString()))} min={1} max={25}/>
+        <div className = "Game-selection">
+          <header className="App-header">
+            <h1>
+              The Gang
+            </h1>
+          </header>
+          <div className="Difficulty-selector">
+            <p> Difficulty: {difficulty}</p>
+            <Slider value={difficulty} onChange={(value) => setDifficulty(parseInt(value.toString()))} min={1} max={25}/>
+          </div>
+          <p>Players:</p>
+          <div className="Number-of-players-selector">
+            <button className="Number-of-players-button" id="3PlayersButton" onClick={() => setNumberOfPlayers(3)} disabled={numberOfPlayers===3}>3</button>
+            <button className="Number-of-players-button" id="4PlayersButton" onClick={() => setNumberOfPlayers(4)} disabled={numberOfPlayers===4}>4</button>
+            <button className="Number-of-players-button" id="5PlayersButton" onClick={() => setNumberOfPlayers(5)} disabled={numberOfPlayers===5}>5</button>
+          </div>
+          <div className="Playing-cards-selector">
+            <p>Use playing cards?</p>
+            <div className="width-separator"></div>
+            <PlayingCardsSwitch value={usePlayingCards} onSwitch={(newValue:boolean)=>setUsePlayingCards(newValue)}></PlayingCardsSwitch>
+          </div>
+          <div>
+            <button className="Generate-tasks-button" onClick={() => generateTasks()} autoFocus={true}>Generate Tasks!</button>
+          </div>
         </div>
-        <div className="Number-of-players-selector">
-          <button className="Number-of-players-button" id="3PlayersButton" onClick={() => setNumberOfPlayers(3)} disabled={numberOfPlayers===3}>3</button>
-          <button className="Number-of-players-button" id="4PlayersButton" onClick={() => setNumberOfPlayers(4)} disabled={numberOfPlayers===4}>4</button>
-          <button className="Number-of-players-button" id="5PlayersButton" onClick={() => setNumberOfPlayers(5)} disabled={numberOfPlayers===5}>5</button>
-        </div>
-        <div className="Playing-cards-selector">
-          <p>Use playing cards?</p>
-          <div className="width-separator"></div>
-          <PlayingCardsSwitch value={usePlayingCards} onSwitch={(newValue:boolean)=>setUsePlayingCards(newValue)}></PlayingCardsSwitch>
-        </div>
-        <div>
-          <button className="Generate-tasks-button" onClick={() => generateTasks()} autoFocus={true}>Generate Tasks!</button>
-        </div>
+      <div className="Table-of-tasks">
         {tasks[0] && <TableOfTasks tasks={tasks} numberOfPlayers={3} useAlternativeTitle={usePlayingCards}/>}
       </div>
       <div className="card">
-          <label htmlFor="hint-click">
-            <input type="checkbox" id="hint-click" className='hidden-checkbox' onClick={()=> {setInstructionsOpen(!instructionsOpen)}}/>
-            <div className="hint">
+          <label htmlFor="info-click">
+            <input type="checkbox" id="info-click" className='hidden-checkbox' onClick={()=> {setInstructionsOpen(!instructionsOpen)}}/>
+            <div className="info">
               <span className="fa fa-info"></span>
               {!instructionsOpen && <h1>i</h1>}
+              <div className="instuctionsText">
               {
               instructionsOpen && 
-                <><h1> Instructions </h1><p>This is where i will write up instructions</p></>
+                <><h1> Instructions </h1><p>This is where I will write up instructions</p></>
               }
+              </div>
             </div>
           </label>
         </div>

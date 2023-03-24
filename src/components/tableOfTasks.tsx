@@ -8,12 +8,12 @@ type TableOfTasksProps = {
 }
 
 const TableOfTasks = (props: TableOfTasksProps) => (
-  <div className="Table">
-    <table className="tg">
+  <div>
+    <table>
       <thead>
         <tr>
-          <th className="tg-0lax">Task</th>
-          <th className="tg-0lax">Difficulty</th>
+          <th>Task</th>
+          <th>Difficulty</th>
         </tr>
       </thead>
       <tbody>
